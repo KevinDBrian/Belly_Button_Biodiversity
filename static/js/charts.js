@@ -85,6 +85,9 @@ function buildCharts(sample) {
       text: otuLabels.slice(0,10).reverse(),
       type: 'bar',
       orientation: 'h',
+      marker: {
+        color: 'rgb(86, 197, 150)' //this color is the rgb of #56C596
+      }
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
@@ -106,7 +109,7 @@ function buildCharts(sample) {
       marker: {
         size: sampleValues,
         color: otuIds,
-        colorscale: 'Earth'
+        colorscale: 'YlGnBu'
       }
     }];
 
@@ -167,13 +170,14 @@ function buildCharts(sample) {
           tickvals: [0,2,4,6,8,10],
           ticktext: [0,2,4,6,8,10],
         },
-        bar: {color: 'black'},
+        bar: {color: 'white'},
         steps: [
-          {range: [0, 2], color: "red"},
-          {range: [2, 4], color: "orange"},
-          {range: [4, 6], color: "yellow"},
-          {range: [6, 8], color: "greenyellow"},
-          {range: [8, 10], color: "limegreen"}]
+          {range: [0, 2], color: "#205072"},
+          {range: [2, 4], color: "#329D9C"},
+          {range: [4, 6], color: "#56C596"},
+          {range: [6, 8], color: "#7BE495"},
+          {range: [8, 10], color: "#CFF4D2"}]
+          // these colors were picked to closely match the bubble chart colorscale
       }
     }
   ];

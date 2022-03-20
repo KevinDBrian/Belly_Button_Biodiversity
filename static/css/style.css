@@ -1,0 +1,35 @@
+.jumbotron {
+	background-image: url("../images/header.png");
+	background-size: 100%;
+    text-align: center;   
+}
+
+.jumbotron > h1 {
+    color: #CFF4D2;
+    text-shadow: 2px 2px black;
+}
+
+.jumbotron > p {
+    color: #CFF4D2;
+    text-shadow: 2px 2px black;
+    font-size: x-large;
+}    
+
+.panel-default > .panel-heading-custom {
+    background: #329D9C; color: #fff;
+    text-align: center;
+}
+
+ /* Color_Palette (../images/color_palette.png)
+# 205072 - blueish
+# 329D9C - bluegreen
+# 56C596 - greenish
+# 7BE495 - lightgreen
+# CFF4D2 - whitegreen 
+
+I tried to go with a collection of colors 
+that closely matched the YlGnBu colorscale used of the bubble chart.
+
+https://plotly.com/javascript/colorscales/#ylgnbu-colorscale
+https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/
+https://www.w3schools.com/
