@@ -1,5 +1,8 @@
 # Belly_Button_Biodiversity
 
+## Link to Webpage
+Please ![click this link here](https://kevindbrian.github.io/Belly_Button_Biodiversity/) to visit the webpage!
+
 ## Resources
 *   Data Source
     *   ![samples.json](samples.json)
