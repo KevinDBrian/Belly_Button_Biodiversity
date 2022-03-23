@@ -5,6 +5,7 @@
     *   ![samples.json](samples.json)
 *   Software
     *   Visual Studio Code 1.63.2
+    *   Plotly 2.11.1
     *   Google Chrome 99.0.4844.51 (Official Build) (32-bit)
 
 ## Overview
@@ -13,21 +14,12 @@ The purpose of this project was to generate a webpage for test subjects in a bio
 
 ## Results
 
-The page itself properly displays all three charts with short descriptions below them. Some customization was also added like the header image and color palette. The page and charts themselves are also responsive and auto adjust to the users screen size, making the webpage mobile friendly.
+The page itself properly displays all three charts with short descriptions below them. Some customization was also added like the header image and color palette. Shadows needed to be added to the text within the header image to make it easier to read also (see style.css file). The page and charts themselves are also responsive and auto adjust to the users screen size, making the webpage mobile friendly.
 
-![]
+### Image of the Webpage
 
-## Summary
+![](static/images/webpage.png)
 
+### Image of the Page on a iPhone 12 Pro
 
-
-How to add...
-
-# syntax site
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-# image
-![alt text](path to image in github "title")
-
-# link to website
-[words for hyperlink like 'click here for..."](url)
+![](static/images/responsive.png)
